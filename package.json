@@ -1,0 +1,36 @@
+{
+  "name": "typescript-stack-demo-backend",
+  "version": "1.0.0",
+  "description": "Typescript stack demo backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navinkumarr/typescript-stack-demo-backend.git"
+  },
+  "keywords": [
+    "typescript",
+    "stack",
+    "demo",
+    "backend",
+    "rest",
+    "api"
+  ],
+  "author": "Navinkumar S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navinkumarr/typescript-stack-demo-backend/issues"
+  },
+  "homepage": "https://github.com/navinkumarr/typescript-stack-demo-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
+}
