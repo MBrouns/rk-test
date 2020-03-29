@@ -5,17 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node ./src/server.ts"
+    "start": "ts-node ./src/server.ts",
+    "compile-typescript": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mbrouns/rk-test.git"
   },
+
   "keywords": [
     "typescript",
     "stack",
     "demo",
-    "backend",1
+    "backend",
     "rest",
     "api"
   ],
