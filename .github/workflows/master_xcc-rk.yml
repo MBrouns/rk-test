@@ -29,7 +29,7 @@ jobs:
         npm run compile-typescript
 
     - name: 'Deploy to Azure Web App'
-      if: gitHub.ref == ‘refs/heads/master'
+      if: gitHub.ref == 'refs/heads/master'
       uses: azure/webapps-deploy@v1
       with:
         app-name: 'xcc-rk'
