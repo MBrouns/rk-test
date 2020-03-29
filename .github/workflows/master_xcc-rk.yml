@@ -23,6 +23,7 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install
+        npm run compile-typescript
 
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v1
@@ -30,4 +31,4 @@ jobs:
         app-name: 'xcc-rk'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_a5dc570ffdd94454b3cb31183529ac35 }}
-        package: .
+        package: output
